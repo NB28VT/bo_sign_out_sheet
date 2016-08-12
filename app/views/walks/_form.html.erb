@@ -1,4 +1,4 @@
-<%= form_for(@walk) do |f| %>
+<%= form_for(@walk)  do |f| %>
   <% if @walk.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@walk.errors.count, "error") %> prohibited this walk from being saved:</h2>
@@ -24,6 +24,6 @@
     <%= f.datetime_select :time_in %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "submit", class: "btn btn-danger" %>
   </div>
 <% end %>
