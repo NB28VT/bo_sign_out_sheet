@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  walker_name: MyString
+  time_out: 2016-08-12 17:47:03
+  time_in: 2016-08-12 17:47:03
+
+two:
+  walker_name: MyString
+  time_out: 2016-08-12 17:47:03
+  time_in: 2016-08-12 17:47:03
